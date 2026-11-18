@@ -8,7 +8,6 @@ const bookingRoutes = require("./routes/bookingRoutes");
 const app = express();
 
 app.use(cors());
-app.use(express.json());
 app.use(
   cors({
     origin: "*",
@@ -21,3 +20,5 @@ app.use("/cart", cartRoutes);
 app.use("/bookings", bookingRoutes);
 
 module.exports = app;
+
+//app.use(express.json());

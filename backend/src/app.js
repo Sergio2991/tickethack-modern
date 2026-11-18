@@ -21,5 +21,3 @@ app.use("/cart", cartRoutes);
 app.use("/bookings", bookingRoutes);
 
 module.exports = app;
-
-//app.use(express.json());

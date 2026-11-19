@@ -1,5 +1,4 @@
-const API_URL =
-  "https://tickethack-modern-git-main-sergio2991s-projects.vercel.app";
+const API_URL = "https://tickethack-modern.vercel.app";
 
 export const searchTrips = async (departure, arrival, date) => {
   const response = await fetch(

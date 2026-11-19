@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_API_URL;
+const API_URL = "https://tickethack-modern.vercel.app";
 
 export const searchTrips = async (departure, arrival, date) => {
   const response = await fetch(
